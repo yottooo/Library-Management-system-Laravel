@@ -1,0 +1,43 @@
+html {
+    background: url("/images/background.jpg") !important;
+}
+body{
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 30px 50px 30px 50px;
+
+}
+input[type=text] {
+    background-color: lightgrey;
+    color: black;
+
+  }
+
+.page-item {
+    display: inline-block !important;
+  }
+
+  .page-item .page-link {
+    color: black !important;
+    float: left !important;
+    padding: 8px 16px !important;
+    text-decoration: none !important;
+  }
+
+  .page-item.active .page-link{
+    background-color: #4CAF50;
+    color: white !important;
+    border-radius: 5px;
+  }
+
+  .page-item a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  .span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
